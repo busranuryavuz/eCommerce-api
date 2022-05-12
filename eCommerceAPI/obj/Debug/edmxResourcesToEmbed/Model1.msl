@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ürünlerModelStoreContainer" CdmEntityContainer="ürünlerEntities3">
+    <EntitySetMapping Name="Alınacaklar">
+      <EntityTypeMapping TypeName="ürünlerModel.Alınacaklar">
+        <MappingFragment StoreEntitySet="Alınacaklar">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Ürün_Adı" ColumnName="Ürün_Adı" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
